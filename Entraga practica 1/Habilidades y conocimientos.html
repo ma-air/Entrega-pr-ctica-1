@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		/*	como es un identifcador se una # */
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		ul li{
+		/*	centrar */
+			text-align: center;
+			/*	quitar puntos */
+			list-style:none; 
+			/*	empiece más  a la izquierda */
+			text-align: left
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		header {
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1>Habilidades y conocimientos</h1>
+  				<ul style = "list-style:none; text-align: left">
+					<li>Me gusta estar activa, aprender y actualizar mis conocimientos.</li>
+					<li>Una de mis aficiones es la informática.</li>
+					<li>Tengo facilidad para relacionarme con la gente y trabajar en equipo.</li>
+				</ul>
+		</header>
+	</div>
+</body>

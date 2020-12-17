@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		/*	además de la navegación hay que señalar elementos que tenemos dentro como: ul y li */
+		nav ul li{
+			/*	centrar */
+			text-align: center;
+			/*	quitar puntos */
+			list-style:none; 
+		}
+		/*	como es un identifcador se una # */
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1> María Herrero </h1>
+			<p> Soy una persona constante y organizada. He terminado la carrera de Administración y Dirección de Empresas y el Master de Contabilidad y Finanzas. Mi proyecto de futuro es entrar en el mundo laboral e ir ampliando mis conocimientos en informática. </p>
+			Si quieres saber un poco más de mi:<br/>
+		</header>
+		
+		<!-- Menu con link a otras paginas html -->
+		<nav>
+			<ul>
+			<li><a href="Experiencia profesional.html">Experiencia profesional</a></li>
+			<li><a href="Formación academica.html">Formación académica</a></li>
+			<li><a href="Habilidades y conocimientos.html">Habilidades y conocimientos</a></li>
+			<li><a href="informática.html">Informática</a></li>
+			<li><a href="Idiomas.html">Idiomas</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<a  href="Curriculum_Ingles.html"> <img src="https://www.ecured.cu/images/a/a7/Bandera-de-inglaterra-400x240.png" width="55" >
+		</a>
+		<footer>
+		María Herrero &copy 2020
+		</footer>
+	</div>
+</body>

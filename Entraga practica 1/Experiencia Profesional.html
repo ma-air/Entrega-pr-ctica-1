@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		/*	como es un identifcador se una # */
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	como es un identifcador se una # */	
+		#table {
+			/*	ancho */
+			width:50% ; 
+			/*	borde */
+			border: 1px solid black; 
+			/*	centrado */
+			text-align: center; 
+			/*	fusionar los bordes */
+			border-collapse: collapse
+
+			margin: auto;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		ul li{
+		/*	centrar */
+			text-align: center;
+			/*	quitar puntos */
+			list-style:none; 
+			/*	empiece más  a la izquierda */
+			text-align: left
+		}
+		tr, td {
+			/*	borde */
+			border: 1px solid black; 
+			/*	fusionar los bordes */
+			border-collapse: collapse;
+		}
+		
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		header {
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>María Herrero - Experiencia</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1>Experiencia profesional</h1>
+				<table id = "table">
+  					<tr>
+    					<th>Empresa</th>
+    					<th>Cargo</th>
+    					<th>Localización</th>
+    					<th>Funciones</th>
+  					</tr>
+  					<tr>
+    					<td>Asesoría</td>
+   	 					<td>Administrativa laboral</td>
+   						<td>Zaragoza</td>
+   						<td><ul>
+							<li>Contabilidad general.</li>
+							<li>Correspondencia comercial.</li>
+							<li>Atención a clientes.</li>
+							<li>Contratos y nóminas.</li>
+							<li>Altas y bajas en Seguridad Social.</li>
+							<li>Comunicaciones de Incapacidades temporales a la Seguridad Social (bajas, confirmaciones…)</li>
+						</ul></td>
+  					</tr>
+  					<tr>
+				    	<td>SAICA GROUP</td>
+				   	 	<td>Administrativa contable</td>
+				   		<td>Zaragoza</td>
+				   		<td><ul>
+							<li>Administración contable de ventas.</li>
+							<li>Atención telefónica de dirección.</li>
+							<li>Emisión de facturas.</li>
+							<li>Gestión administrativa de compras.</li>
+							<li>Gestión administrativa de proveedores.</li>
+							<li>Gestión de archivos.</li>
+						</ul></td>
+  					</tr>
+		</header>
+	</div>
+</body>

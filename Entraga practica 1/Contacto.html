@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		/*	además de la navegación hay que señalar elementos que tenemos dentro como: ul y li */
+		ul li{
+			/*	centrar */
+			text-align: left;
+			/*	quitar puntos */
+			list-style:none; 
+		}
+		/*	como es un identifcador se una # */
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		header img {
+			
+		}
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1> María Herrero </h1>
+			<img src = "img/Foto1.jpg" alt="Foto" />
+		</header>
+		<img src = "svg/carta.svg" alt="correo" width="50" height="50"/>
+		<p>Mi correo electónico es: <a href="mailto:mariah201999@gmail.com">mariah201999@gmail.com</a></p><br/>
+		<img src = "svg/sombrero.svg" alt="cumple" width="50" height="50"/>
+		<p>18-07-97</p>
+		<p><a  class="btn btn-primary btn-lg" href="https://github.com/maria2020-21" role="button"> Enlace a <i>GitHub</i> </a></p>
+	</div>
+</body>

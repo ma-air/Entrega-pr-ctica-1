@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		/*	como es un identifcador se una # */
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	como es un identifcador se una # */	
+		#table {
+			/*	ancho */
+			width:50% ; 
+			/*	borde */
+			border: 1px solid black; 
+			/*	centrado */
+			text-align: center; 
+			/*	fusionar los bordes */
+			border-collapse: collapse
+
+			margin: 0 auto;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		ul li{
+		/*	centrar */
+			text-align: center;
+			/*	quitar puntos */
+			list-style:none; 
+			/*	empiece más  a la izquierda */
+			text-align: left
+		}
+		tr, th {
+			/*	borde */
+			border: 1px solid black; 
+			/*	fusionar los bordes */
+			border-collapse: collapse;
+		}
+		
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		header {
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1>Formación académica</h1>
+				<table>
+  					<tr>
+    					<th>Estudios</th>
+    					<th>Lugar</th>
+    					<th>Año</th>
+    					<th>TFG / TFM</th>
+  					</tr>
+  					<tr>
+    					<td>Grado Superior de Aplicaciones Multiplataforma (en elaboración)</td>
+   	 					<td>I.E.S Itaca</td>
+   						<td>2020</td>
+   						<td>n.d.</td>
+  					</tr>
+  					<tr>
+				    	<td>Master de Contabilidad y Finanzas</td>
+				   	 	<td>UNIZAR</td>
+				   		<td>2019-2020</td>
+				   		<td>Información segmentada de las empresas del mercado continúo.</td>
+  					</tr>
+  					<tr>
+				    	<td>Administración y Dirección de Empresas</td>
+				   	 	<td>UNIZAR</td>
+				   		<td>2015-2019</td>
+				   		<td>Desarrollo de un modelo de cuadro de mando integral en empresas.</td>
+  					</tr>
+		</header>
+	</div>
+</body>

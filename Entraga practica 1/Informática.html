@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		/*	como es un identifcador se una # */
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		ul li{
+			/*	empiece más  a la izquierda */
+			text-align: left
+		}
+		
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+		header {
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1> Informática </h1>
+			<p> Mis conocimientos en informática, se pueden resumir en:
+				<ul>
+					<li>Ofimática, Internet y correo electrónico (nivel alto).</li>
+					<li>Manejo de redes.</li>
+					<li>Conocimientos de SAP, CONTAPLUS y FACTURAPLUS.</li>
+					<li>Aprendiendo: Java, HTML5 y CSS.</li>
+					<li>Manejo de otras aplicaciones: Gretl y SPSS.</li>
+				</ul>
+		</header>
+	</div>
+</body>

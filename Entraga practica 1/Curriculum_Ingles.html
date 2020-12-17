@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!-- metadatos e infomracion necesaria para el navegador -->
+<head>
+	<style>
+		
+		body{
+			/*	fondo */
+			background-image: url('img/fondo.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*	fijar para que no se mueva con el scroll */
+			background-attachment:fixed;
+		}
+		/*	además de la navegación hay que señalar elementos que tenemos dentro como: ul y li */
+		nav ul li{
+			/*	centrar */
+			text-align: center;
+			/*	quitar puntos */
+			list-style:none; 
+		}
+		/*	como es un identifcador se una # */
+		#container{
+			/*	letra blanca */
+			color: black;
+			/*	ancho */
+			width: 60%;
+			/*	margen para centrar */
+			margin: auto;
+			/*	Añadir un borde para que quede mejor */
+			border: 10px solid black ;
+			/*	letra */
+			font-family: Arial, sans-serif;
+			/*	centrar */
+			text-align: center;
+		}
+		/*	Como header es una etiqueta, solo con nombrarla basta */
+
+	</style>
+	<!-- Contenido de la página web esta en español-->
+	<meta charset="UTF-8">
+	<title>Curriculum vitae: María Herrero</title>
+	</style>
+</head>
+<!-- Contenido de la página web -->
+<body>
+	<!-- Se crea una caja div con identificador, asi luego solo hay que nombrarlo en CSS y por eso ahi dentro se hace todo el html -->
+	<div id="container">
+		<header>
+			<h1> María Herrero </h1>
+			<p> I am a constant and organized person. I have finished the career of Business Administration and Management and the Master of Accounting and Finance. My future project is to enter the world of work and expand my knowledge in computing. </p>
+			If you want to know a little more about me:<br/>
+		</header>
+		
+		<!-- Menu con link a otras paginas html -->
+		<nav>
+			<ul>
+			<li><a href="Experiencia profesional.html">Professional experience</a></li>
+			<li><a href="Formación academica.html">Academic training</a></li>
+			<li><a href="Habilidades y conocimientos.html">Skills and knowledge</a></li>
+			<li><a href="informática.html">Computing</a></li>
+			<li><a href="Idiomas.html">Languages</a></li>
+			<li><a href="Curriculum_María_Herrero.html">Contact</a></li>
+			</ul>
+		</nav>
+		<section id = "content">
+			<article class="article">
+  				<h2></h2>
+  				
+			</article>
+		</section>
+		<a  href="Curriculum_María_Herrero.html"> <img src="https://urgil24.es/wp-content/uploads/2018/06/bandera-de-espa%C3%B1a-1.jpg" width="55" >
+		</a>
+		<footer>
+		María Herrero &copy 2020
+		</footer>
+	</div>
+</body>
